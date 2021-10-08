@@ -5,8 +5,8 @@ const quizData = [
     b: 'CSS',
     c: 'JavaScript',
     d: 'Ham',
-    correct: 'HTML',
-  }
+    correct: 'a'
+  },
 
   {
     question: 'DOM is an abbreviation for,
@@ -14,8 +14,8 @@ const quizData = [
     b: 'Dumb Old Man',
     c: 'Document Object Model',
     d: 'Dutle Opo Mipsy',
-    correct: 'Document Object Model',
-  }
+    correct: 'c'
+  },
 
   {
     question: 'The condition in an if / else statement is inclosed within',
@@ -23,8 +23,8 @@ const quizData = [
     b: 'curly brackets',
     c: 'parentheses',
     d: 'square brackets',
-    correct: "parentheses",
-  }
+    correct: 'c'
+  },
 
   {
     question: 'How would you console log Hello World?',
@@ -32,8 +32,8 @@ const quizData = [
     b: `console.log('Hello World')`,
     c: `function.write('Hello World')`,
     d: `log.'Hello World'`,
-    correct: `console.log('Hello World')`,
-  }
+    correct: 'a'
+  },
 
   {
     question: 'Inside which HTML element do we put JavaScript?',
@@ -41,8 +41,8 @@ const quizData = [
     b: '< js >',
     c: '< script >',
     d: '< scripting >',
-    correct: '< script >',
-  }
+    correct: 'c'
+  },
 
   {
     question: 'How do you call a function named myFunction?',
@@ -50,8 +50,8 @@ const quizData = [
     b: 'myFunction()',
     c: 'call function myFunction',
     d: 'Call.myFunction()',
-    correct: 'myFunction()',
-  }
+    correct: 'b'
+  },
 
   {
     question: 'What is the correct place to insert JavaScript into HTML?',
@@ -59,8 +59,8 @@ const quizData = [
     b: '< body >',
     c: 'Both',
     d: 'Neither'
-    correct: 'Both',
-  }
+    correct: 'c'
+  },
 
   {
     question: 'What is the correct syntax for referring to an external script called "xxx.js"?',
@@ -68,8 +68,8 @@ const quizData = [
     b: '< script name="xxx.js" >',
     c: '< script href="xxx.js" >',
     d: 'None of the above',
-    correct: '< script src="xxx.js"',
-  }
+    correct: 'a'
+  },
 
   {
     question: 'How do you write a conditional statement for executing some statements only if i is equal to 5?',
@@ -77,8 +77,8 @@ const quizData = [
     b: 'if (i == 5)',
     c: 'if i=5 then',
     d: 'if i=5',
-    correct: 'if (i == 5)',
-  }
+    correct: 'b'
+  },
 
   {
     question: 'Which is NOT a JavaScript data type?',
@@ -86,6 +86,6 @@ const quizData = [
     b: 'String',
     c: 'Boolean',
     d: 'Undeclared',
-    correct: 'Undeclared',
-  }
+    correct: 'd'
+  },
 ]
