@@ -23,6 +23,8 @@
       
         <div class="navbar-start">
           <a class="navbar-item " href="#">Coding Quiz</a> 
+          <a class="navbar-item" href="#">View High Scores</a>
+          <a class="navbar-item" href="#">Quiz Timer</a>
         </div>
       
         <div class="navbar-end">
@@ -39,33 +41,29 @@
       </nav>
   <div class="bg-image">
   
-  <div class="quizContainer">
+  <div class="quizContainer" id="quiz">
     <div class="quizHeader">
-
-    
-    <h2>Question</h2>
-    <ul>
-      <li>
-        <input type="radio" id="a" name="answer">
-        <label for="a">Question</label>
-      </li>
-      <li>
-        <input type="radio" id="b" name="answer">
-        <label for="a">Question</label>
-      </li>
-      <li>
-        <input type="radio" id="c" name="answer">
-        <label for="a">Question</label>
-      </li>
-      <li>
-        <input type="radio" id="d" name="answer">
-        <label for="a">Question</label>
-      </li>
-
-      
-    </ul>
+      <h2 id="question"></h2>
+      <ul>
+        <li>
+          <input type="radio" id="a" name="answer" class="answer" />
+          <label id="a_text" for="a"></label>
+        </li>
+        <li>
+          <input type="radio" id="b" name="answer" class="answer" />
+          <label id="b_text" for="b"></label>
+        </li>
+        <li>
+          <input type="radio" id="c" name="answer" class="answer" />
+          <label id="c_text" for="c"></label>
+        </li>
+        <li>
+          <input type="radio" id="d" name="answer" class="answer" />
+          <label id="d_text" for="d"></label>
+        </li>
+      </ul>
     </div>
-    <button>Next Question</button>
+    <button id="submit">Next Question</button>
   </div>
   </div>
   <script src="Assets/script.js"></script>
